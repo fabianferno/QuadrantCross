@@ -1,7 +1,7 @@
 .header,
 .content {
   min-height: 100px;
-  height: 150px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 .header {
-  background-color: #e2871f;
+  background-color: #abcc16;
   color: black;
 }
 

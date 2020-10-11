@@ -25,7 +25,7 @@
   height: 0;
   border-style: solid;
   border-width: 0 0 100px 200px;
-  border-color: transparent transparent #e95f55 transparent;
+  border-color: transparent transparent #bff00e transparent;
   z-index: 2;
 }
 .animated-mail .top-fold {
@@ -41,7 +41,7 @@
   -moz-transition: transform 0.4s 0.4s, z-index 0.2s 0.4s;
   transform-origin: 50% 0%;
   transition: transform 0.4s 0.4s, z-index 0.2s 0.4s;
-  border-color: #cf4a43 transparent transparent transparent;
+  border-color: #94af31 transparent transparent transparent;
   z-index: 2;
 }
 .animated-mail .back-fold {
@@ -49,7 +49,7 @@
   bottom: 0;
   width: 200px;
   height: 100px;
-  background: #cf4a43;
+  background: #bff00e;
   z-index: 0;
 }
 .animated-mail .left-fold {
@@ -59,7 +59,7 @@
   height: 0;
   border-style: solid;
   border-width: 50px 0 50px 100px;
-  border-color: transparent transparent transparent #e15349;
+  border-color: transparent transparent transparent #bff00e;
   z-index: 2;
 }
 .animated-mail .letter {
@@ -80,8 +80,8 @@
   width: 100%;
   background: repeating-linear-gradient(
     -45deg,
-    #cb5a5e,
-    #cb5a5e 8px,
+    #bff00e,
+    #bff00e 8px,
     transparent 8px,
     transparent 18px
   );
@@ -109,9 +109,9 @@
 }
 
 .shadow {
-  position: absolute;
+  position: relative;
   top: 200px;
-  left: 50%;
+  margin-left: 90px;
   width: 400px;
   height: 30px;
   transition: 0.4s;
