@@ -3,3 +3,7 @@
   image-resolution: 300dpi;
   border-radius: 100px;
 }
+
+.navbar_bg {
+  background-color: #ffee4d;
+}
