@@ -5,5 +5,23 @@
 }
 
 .navbar_bg {
-  background-color: #ffee4d;
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 0, 0, 1) 0%,
+    rgb(204, 113, 113) 100%
+  );
+}
+.parallax {
+  /* The image used */
+  background-image: url("images/parallax.jpeg");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
