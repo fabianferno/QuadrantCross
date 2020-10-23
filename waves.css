@@ -1,0 +1,53 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #22184c;
+  color: #ddf;
+}
+
+.content {
+  color: #22184c;
+  padding-top: 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header img {
+  padding-top: 10px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  letter-spacing: 0.1ch;
+  font-weight: 300;
+  margin: 0;
+}
+
+.content h1 {
+  color: #22184c;
+  font-size: 3rem;
+  letter-spacing: 0.1ch;
+  font-weight: 300;
+  margin: 0;
+  font-weight: bold;
+}
+
+.canvas-wrap {
+  max-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+canvas {
+  display: block;
+}
