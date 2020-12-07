@@ -1,25 +1,36 @@
-var owl = $('.owl-carousel');
+var owl = $(".owl-carousel");
 owl.owlCarousel({
-    items:4,
-    loop:true,
-    margin:10,
-    autoplay:true,
-    autoplayTimeout:1000,
-    autoplayHoverPause:true
+  items: 4,
+  loop: true,
+  margin: 10,
+  autoplay: true,
+  autoplayTimeout: 1000,
+  autoplayHoverPause: true,
 });
-owl.trigger('play.owl.autoplay',[2000]);
+owl.trigger("play.owl.autoplay", [2000]);
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+/* ==================================
+ONSCROLL LOADER BEGINS
+===================================== */
+window.onscroll = function () {
+  myFunction();
+};
 
 function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var height =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("scroll-loader").style.width = scrolled + "%";
 }
+/* ==================================
+ONSCROLL LOADER ENDS
+===================================== */
 
-
+/* ==================================
+SMOOTHSCROLL ENDS
+===================================== */
 $(document).ready(function () {
   // Add smooth scrolling to all links
   $(".smooth").on("click", function (event) {
@@ -46,3 +57,6 @@ $(document).ready(function () {
     } // End if
   });
 });
+/* ==================================
+SMOOTHSCROLL ENDS
+===================================== */

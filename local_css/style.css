@@ -44,6 +44,10 @@ body {
   animation: gradient 5s ease infinite;
 }
 
+.text-grey {
+  color: #404040;
+}
+
 .sub-hero {
   color: #3b3b3b;
   padding-top: 60px;
