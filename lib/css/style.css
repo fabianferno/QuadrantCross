@@ -71,10 +71,6 @@ CARD DEFINITIONS BEGIN
   transition: 0.3s;
 }
 
-.card-img:hover {
-  color: rgb(92, 180, 9);
-}
-
 .neu-card {
   border-radius: 32px;
   background: linear-gradient(145deg, #e6e6e6, #ffffff);
