@@ -67,12 +67,12 @@ CARD DEFINITIONS BEGIN
 =====================================*/
 
 .card-img {
-  color: rgb(92, 180, 9);
+  color: rgb(255, 157, 0);
   transition: 0.3s;
 }
 
 .card-img:hover {
-  color: rgb(255, 123, 0);
+  color: rgb(92, 180, 9);
 }
 
 .neu-card {
