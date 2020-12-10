@@ -1,3 +1,2 @@
 # QuadrantCross
-
-## website made by &copy;SímeraDesigns
+## &copy;SímeraDesigns
