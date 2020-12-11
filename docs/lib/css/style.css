@@ -320,6 +320,16 @@ CUSTOM CSS BEGINS
   font-size: 70px;
   color: rgb(0, 0, 0);
 }
+
+.text-green {
+  color: rgb(64, 122, 64);
+}
+
+.quotes {
+  font-weight: bold;
+  font-size: 80px;
+  font-family: "Times New Roman", Times, serif;
+}
 /*=====================================
 CUSTOM CSS ENDS
 =====================================*/
