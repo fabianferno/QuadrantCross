@@ -15,6 +15,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+
+::-moz-selection { /* Code for Firefox */
+  color: #ffffff;
+  background: rgb(238, 135, 0);
+}
+
+::selection {
+  color: #ffffff;
+  background: rgb(238, 135, 0);
+}
 /*=======================================================*/
 
 /*=====================================
