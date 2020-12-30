@@ -12,23 +12,12 @@ html {
 }
 
 html::-webkit-scrollbar {
-  width: 7px;
+  width: 2px;
 }
-
+ 
 html::-webkit-scrollbar-thumb {
-  height: 50px;;
-  border-radius: 7px;
-  background-color: rgba(31, 31, 31, 0.74);
-  background-image: -webkit-linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.2) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.2) 50%,
-    rgba(255, 255, 255, 0.2) 75%,
-    transparent 75%,
-    transparent
-  );
+  background: #666; 
+  border-radius: 2px;
 }
 
 body {
